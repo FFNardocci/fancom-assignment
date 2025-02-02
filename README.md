@@ -1,6 +1,6 @@
 Process:
 
-I initially sparred with chatGPT over a good file structure for such an application. 
+I initially sparred with chatGPT over coming up with a good file structure for such an application. 
 I started on the assumption of having to implement a solution using a 2d slice to represent a chessboard where each value has a color assigned to it; this proved to be a naive implementation since
 I then remembered that there was a very easy computation to determine whether two values reside on the same diagonal in a matrix. 
 After checking what it was (checking if their absolute values are equal), it followed that if focusing solely on two pieces, and only on checking whether a bishop can attack another piece, then only that bit of logic was needed for the application.
