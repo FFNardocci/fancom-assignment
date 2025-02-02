@@ -56,9 +56,6 @@ func GetCoordinates() (bishopCoordinates, targetCoordinates []int, err error) {
 		return nil, nil, fmt.Errorf(invalidUserInputError)
 	}
 
-	fmt.Print("BISHOP: ", bishopCoordinates)
-	fmt.Print("TARGET: ", targetCoordinates)
-
 	return bishopCoordinates, targetCoordinates, nil
 }
 
